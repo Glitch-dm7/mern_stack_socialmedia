@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: 'https://glitch-anime-club.vercel.app' })
+const API = axios.create({ baseURL: 'https://crazy-plum-pantsuit.cyclic.app' })
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('profile')) {
