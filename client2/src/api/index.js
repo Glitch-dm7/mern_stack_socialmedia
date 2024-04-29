@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: 'https://crazy-plum-pantsuit.cyclic.app' })
+const API = axios.create({ baseURL: 'https://mern-stack-socialmedia-v953.onrender.com' })
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('profile')) {
